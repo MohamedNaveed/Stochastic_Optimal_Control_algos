@@ -1,0 +1,12 @@
+The package contains implementations of the algorithms discussed in the paper.
+All algorithms are written in Python for a generic case of n agents with car-like
+robot dynamics.
+
+Contents:
+1)MPC.py - Model Predictive Control implementation.
+2)MPC_SH.py - Implementation of short horizon version of MPC.
+3)MT_LQR.py - Multi-agent Trajectory-optimised Linear Quadratic Regulator.
+4)MT_LQR_2.py - Multi-agent Trajectory-optimised Linear Quadratic Regulator with replanning.
+5)MT_LQR_2_SH.py - Implementation of short horizon version of MT-LQR2.
+
+The updates in the implementation can be seen in https://github.com/MohamedNaveed/Stochastic_Optimal_Control_algos .
